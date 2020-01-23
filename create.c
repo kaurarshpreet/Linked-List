@@ -1,10 +1,10 @@
 #include<stdio.h>
 struct Node
 {
-int val;
+int data;
 struct Node *next;
 };
-void insert(struct Node *head)
+void insert(struct Node *head,int val)
 {
 struct Node *newnode=(struct Node *)malloc(sizeof(struct Node));
 newnode->data=val;
